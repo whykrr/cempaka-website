@@ -15,8 +15,8 @@
                             aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem
                             mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti
                             vel. Minus et tempore modi architecto.</p>
-                        <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read
-                            More</a>
+                        {{-- <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read
+                            More</a> --}}
                     </div>
                 </div>
             </div>
@@ -30,8 +30,8 @@
                             aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem
                             mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti
                             vel. Minus et tempore modi architecto.</p>
-                        <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read
-                            More</a>
+                        {{-- <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read
+                            More</a> --}}
                     </div>
                 </div>
             </div>
@@ -45,8 +45,8 @@
                             aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem
                             mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti
                             vel. Minus et tempore modi architecto.</p>
-                        <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read
-                            More</a>
+                        {{-- <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read
+                            More</a> --}}
                     </div>
                 </div>
             </div>

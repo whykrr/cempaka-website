@@ -1,9 +1,9 @@
 <!-- ======= About Us Section ======= -->
-<section id="about" class="about">
+<section id="tentang" class="about">
     <div class="container">
 
         <div class="section-title">
-            <h2>About Us</h2>
+            <h2>Tentang Kami</h2>
             <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
                 sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
                 ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
@@ -11,7 +11,7 @@
 
         <div class="row">
             <div class="col-lg-6 order-1 order-lg-2">
-                <img src="assets/img/about.jpg" class="img-fluid" alt="">
+                <img src="{{ asset('img/about.jpg') }}" class="img-fluid" alt="">
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
                 <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
