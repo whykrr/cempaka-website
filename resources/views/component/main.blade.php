@@ -10,7 +10,7 @@
 
     @include('section.client')
 
-    @include('section.portfolio')
+    @include('section.galeri')
 
     @include('section.news')
 

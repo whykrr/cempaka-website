@@ -136,7 +136,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 65px;
 }
 
 .scrolled-offset {
@@ -385,7 +385,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 70vh;
+  height: 90vh;
   background-color: rgba(9, 9, 9, 0.8);
   overflow: hidden;
   position: relative;
@@ -645,6 +645,7 @@ section {
   font-size: 14px;
 }
 
+
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
@@ -878,6 +879,22 @@ section {
 .services .iconbox-teal:hover .icon path {
   fill: #11dbcf;
 }
+
+.services .social {
+  margin-top: 15px;
+}
+
+.services .social i.social-icon {
+  color: #919191 !important;
+  transition: 0.3s !important;
+  font-size: 25px !important;
+  margin: 0px 5px !important;
+}
+
+.services .social i.social-icon:hover {
+  color: #5cb874 !important;
+}
+
 
 /*--------------------------------------------------------------
 # Cta
