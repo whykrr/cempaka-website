@@ -111,7 +111,7 @@ class Landingpage extends Controller
                 'content' => [
                     'category' => 'Kedai'
                 ],
-                'image' => url('img/galeri-kedai1.jpg'),
+                'image' => url('img/gk1.jpg'),
             ],
             [
                 'title' => 'Kedai',
@@ -119,7 +119,7 @@ class Landingpage extends Controller
                 'content' => [
                     'category' => 'Kedai'
                 ],
-                'image' => url('img/galeri-kedai2.jpg'),
+                'image' => url('img/gk2.jpg'),
             ],
             [
                 'title' => 'Kedai',
@@ -127,7 +127,7 @@ class Landingpage extends Controller
                 'content' => [
                     'category' => 'Kedai'
                 ],
-                'image' => url('img/galeri-kedai3.jpg'),
+                'image' => url('img/gk3.jpg'),
             ],
             [
                 'title' => 'Kedai',
@@ -135,7 +135,7 @@ class Landingpage extends Controller
                 'content' => [
                     'category' => 'Kedai'
                 ],
-                'image' => url('img/galeri-kedai4.jpg'),
+                'image' => url('img/gk4.jpg'),
             ],
             [
                 'title' => 'Kedai',
@@ -143,7 +143,7 @@ class Landingpage extends Controller
                 'content' => [
                     'category' => 'Kedai'
                 ],
-                'image' => url('img/galeri-kedai5.jpg'),
+                'image' => url('img/gk5.jpg'),
             ],
             [
                 'title' => 'Adventure',
@@ -151,7 +151,7 @@ class Landingpage extends Controller
                 'content' => [
                     'category' => 'Adventure'
                 ],
-                'image' => url('img/galeri-adventure1.jpg'),
+                'image' => url('img/ga1.jpg'),
             ],
             [
                 'title' => 'Adventure',
@@ -159,7 +159,7 @@ class Landingpage extends Controller
                 'content' => [
                     'category' => 'Adventure'
                 ],
-                'image' => url('img/galeri-adventure2.jpg'),
+                'image' => url('img/ga2.jpg'),
             ],
             [
                 'title' => 'Adventure',
@@ -167,7 +167,7 @@ class Landingpage extends Controller
                 'content' => [
                     'category' => 'Adventure'
                 ],
-                'image' => url('img/galeri-adventure3.jpg'),
+                'image' => url('img/ga3.jpg'),
             ],
             [
                 'title' => 'Adventure',
@@ -175,7 +175,7 @@ class Landingpage extends Controller
                 'content' => [
                     'category' => 'Adventure'
                 ],
-                'image' => url('img/galeri-adventure4.jpg'),
+                'image' => url('img/ga4.jpg'),
             ],
             [
                 'title' => 'Adventure',
@@ -183,7 +183,7 @@ class Landingpage extends Controller
                 'content' => [
                     'category' => 'Adventure'
                 ],
-                'image' => url('img/galeri-adventure5.jpg'),
+                'image' => url('img/ga5.jpg'),
             ],
             [
                 'title' => 'Adventure',
@@ -191,7 +191,7 @@ class Landingpage extends Controller
                 'content' => [
                     'category' => 'Adventure'
                 ],
-                'image' => url('img/galeri-adventure6.jpg'),
+                'image' => url('img/ga6.jpg'),
             ],
             [
                 'title' => 'Adventure',
@@ -199,7 +199,7 @@ class Landingpage extends Controller
                 'content' => [
                     'category' => 'Adventure'
                 ],
-                'image' => url('img/galeri-adventure7.jpg'),
+                'image' => url('img/ga7.jpg'),
             ],
             [
                 'title' => 'Adventure',
@@ -207,7 +207,7 @@ class Landingpage extends Controller
                 'content' => [
                     'category' => 'Adventure'
                 ],
-                'image' => url('img/galeri-adventure8.jpg'),
+                'image' => url('img/ga8.jpg'),
             ],
             [
                 'title' => 'Adventure',
@@ -215,7 +215,7 @@ class Landingpage extends Controller
                 'content' => [
                     'category' => 'Adventure'
                 ],
-                'image' => url('img/galeri-adventure9.jpg'),
+                'image' => url('img/ga9.jpg'),
             ],
             [
                 'title' => 'Adventure',
@@ -223,7 +223,7 @@ class Landingpage extends Controller
                 'content' => [
                     'category' => 'Adventure'
                 ],
-                'image' => url('img/galeri-adventure10.jpg'),
+                'image' => url('img/ga10.jpg'),
             ],
         ];
         $data['galeri'] = $galeri;
