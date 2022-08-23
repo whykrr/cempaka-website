@@ -34,7 +34,7 @@ class Landingpage extends Controller
             <li>konsep agroforestry.</li>
             <li>Pendidikan Lingkungan untuk meningkatkan kesadaran dan kepedulian&amp;#160;masyarakat terhadap tanggungjawab lingkungan.</li>
             </ol>',
-            'image' => url('img/about.jpg'),
+            'image' => url('img/abouts.jpg'),
         ];
 
         $data['usaha'] = [
