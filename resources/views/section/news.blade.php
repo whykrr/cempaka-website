@@ -12,7 +12,7 @@
         <div class="row">
             @foreach ($news as $item)
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-                    <div class="content">
+                    <a href="{{ url('blog-article/' . $item['slug']) }}" class="content">
                         <img src="{{ $item['image'] }}" alt="">
                         <h4>{{ $item['title'] }}</h4>
                         {{-- <span class="text-muted">{{ $item['creator'] }}</span> --}}
@@ -20,7 +20,7 @@
                         <p>
                             {{ $item['content']['description'] }}
                         </p>
-                    </div>
+                    </a>
                 </div>
             @endforeach
         </div>

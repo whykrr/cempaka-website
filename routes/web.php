@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Blogarticle;
 use App\Http\Controllers\Landingpage;
 use Illuminate\Support\Facades\Route;
 
@@ -15,3 +16,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [Landingpage::class, 'index']);
+Route::get('/blog-article/{slug}', [Blogarticle::class, 'detail']);

@@ -8,7 +8,7 @@
                 <div class="d-flex justify-content-between align-items-center">
                     <h2>News</h2>
                     <ol>
-                        <li><a href="#">BLOG & ARTIKEL</a></li>
+                        <li><a href="#">Blog & Artikel</a></li>
                         <li>{{ $title }}</li>
                     </ol>
                 </div>
@@ -19,7 +19,7 @@
         <section class="inner-page">
             <div class="container">
                 <h1>{{ $title }}</h1>
-                {{ $content['content'] }}
+                {!! $content['content'] !!}
             </div>
         </section>
 

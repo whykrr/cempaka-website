@@ -244,7 +244,7 @@ class Landingpage extends Controller
         $data['news'] = [
             [
                 'title' => '3 Tradisi Daerah di Indonesia yang Berguna untuk Pelestarian Alam',
-                'slug' => '',
+                'slug' => '3-tradisi',
                 'content' => [
                     'icon' => 'mug-hot',
                     'description' => 'Indonesia memiliki tradisi yang melimpah dari daerah-daerahnya. Bahkan, daerah yang berdekatan bisa memiliki tradisi yang berbeda-beda. Tradisi di Indonesia kebanyakan melibatkan rasa syukur kepada alam atas sumber daya alam yang sudah diberikan. Kegiatan ini menjadi salah satu upaya masyarakat yang terus ada untuk melestarikan alam karena diselenggarakan tahunan. Berikut 3 tradisi daerah di Indonesia yang dapat menjadi upaya untuk melestarikan alam.',

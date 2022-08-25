@@ -30,7 +30,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Template Main CSS File -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
     <!-- =======================================================
   * Template Name: Green - v4.8.0
