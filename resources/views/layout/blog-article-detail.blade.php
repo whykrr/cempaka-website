@@ -6,7 +6,6 @@
             <div class="container">
 
                 <div class="d-flex justify-content-between align-items-center">
-                    <h2>News</h2>
                     <ol>
                         <li><a href="#">Blog & Artikel</a></li>
                         <li>{{ $title }}</li>
