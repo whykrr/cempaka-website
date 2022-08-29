@@ -16,8 +16,14 @@ class Landingpage extends Controller
             [
                 'title' => 'Welcome to Cempaka Foundation',
                 'slug' => '',
-                'content' => 'Community Empowerment to make changes',
+                'content' => 'Ruang interaksi alam dan manusia',
                 'image' => url('img/slider1.jpg'),
+            ],
+            [
+                'title' => 'Welcome to Cempaka Foundation',
+                'slug' => '',
+                'content' => 'Ruang interaksi alam dan manusia',
+                'image' => url('img/gk1.jpg'),
             ],
         ];
 
@@ -37,30 +43,51 @@ class Landingpage extends Controller
             'image' => url('img/abouts.jpg'),
         ];
 
+        $data['program'] = [
+            [
+                'title' => 'Program Kampung Peduli Gizi',
+                'slug' => 'program-kampung-peduli-gizi',
+                'content' => [
+                    'description' => 'Ketersediaan pangan selalu menjadi prioritas utama masyarakat di tengah-tengah masa pandemi Covid-19.Akan tetapi, tak jarang masyarakat menemukan bahan makanan yang mulai langka dan berharga tinggi.Apalagi jenis jenis bahan makanan sumber protein hewani,yang semakin hari harganya semakin tinggi.Sehingga sulit di jangkau oleh masyarakat terutama di masa pandemic seperti sakarang.Namun telur dapat menjadi alternatif makanan sehat di masa pandemi Covid-19. Pasalnya, makanan ini harganya cukup terjangkau dibandingkan sumber protein hewani lainnya. Ditambah lagi, telur mengandung banyak nutrisi sehat seperti air, karbohidrat, lemak dan protein.',
+                    'content' => '<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Ketersediaan pangan selalu menjadi prioritas utama masyarakat di tengah-tengah masa pandemi Covid-19.Akan tetapi, tak jarang masyarakat menemukan bahan makanan yang mulai langka dan berharga tinggi.Apalagi jenis jenis bahan makanan sumber protein hewani,yang semakin hari harganya semakin tinggi.Sehingga sulit di jangkau oleh masyarakat terutama di masa pandemic seperti sakarang.Namun telur dapat menjadi alternatif makanan sehat di masa pandemi Covid-19. Pasalnya, makanan ini harganya cukup terjangkau dibandingkan sumber protein hewani lainnya. Ditambah lagi, telur mengandung banyak nutrisi sehat seperti air, karbohidrat, lemak dan protein.</p>
+
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Di latar belakangi atas hal tersebut maka Cempaka Foundation bersama PT Cargil Indonesia meluncurkan program &ldquo;Kampung Peduli Gizi&rdquo; .Program yang di rancang untuk memenuhi kebutuhan protein masyarakat di Jawa dan Sulawesi.Realisasi dari program ini adalah dengan di bangunya 3 pusat pembelajaran terpadu di Magelang,Pasuruan dan sidrap untuk melatih sikitar 1.000 peternak ayam petelur.Dan hasil telur dari tiga lokasi tersebut akan di alokasikan kepada sekitar 3.000 masyarakat setempat yang mengalami kesulitan dalam memenuhi kebutuhan asupan protein akibat pandemi COVID 19.</p>
+                    
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PINSAR Petelur Nasional Magelang dan LOC Makasar di rangkul untuk bekerjasama membuat modul modul pelatihan yang juga merupakan respon cepat tanggap terhadap dampak COVID 19,untuk memperbaiki taraf hidup masyarakat setempat.Lebih dari ini,secara Nasional Cargil bersama Cempaka juga memberikan donasi dalam bentuk sembako,alat kesehatan dan obat obatan.Untuk membantu masyarakat dalam menghadapi pandemi COVID 19.</p>
+                    
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &ldquo;Kami sangat mengapresiasi dukungan dan inisiatif Cargill Indonesia melalui Cempaka Foundation dalam membantu memperkuat pemberdayaan masyarakat setempat, khususnya para peternak, sehingga dapat lebih maksimal dalam mengelola peternakan ayam petelur. Selama pandemi, rantai pasokan protein mengalami keterhambatan yang mana sangat berdampak kepada peternak, masyarakat, dan perekonomian kita. Oleh karena itu, program seperti ini sangat penting karena dapat meningkatkan keahlian dan kecakapan para peternak dalam mengelola perternakan mereka, meningkatkan produktivitas peternakan, meningkatkan efisiensi, menjaga pasokan protein, dan meningkatkan taraf kehidupan mereka,&rdquo; kata Dr. Ir. Nasrullah, M.Sc, Direktur Jenderal Peternakan dan Kesehatan Hewan Kementerian Pertanian.</p>
+                    
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pada masing-masing pusat pelatihan, peternak setempat akan memperoleh beragam pengetahuan yang terdapat di dalam modul pelatihan, seperti pengetahuan tentang manajemen produksi telur, serta manajemen nutrisi dan kesehatan pada peternakan ayam petelur, termasuk langkah-langkah biosekuriti. Tidak hanya untuk peternak, pusat pelatihan ini juga terbuka untuk para mahasiswa yang ingin belajar mengenai peternakan ayam petelur. Selain sebagai sarana edukasi, pusat pembelajaran ini juga akan turut berperan sebagai sumber penyediaan pasokan protein untuk masyarakat. Tiga ribu kilogram telur yang dihasilkan dari ketiga pusat pelatihan, akan diberikan kepada masyarakat setempat.</p>
+                    
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sarifudin Lathif, Direktur Cempaka Foundation menuturkan&rdquo;,bahwa sangat senang dipilih Cargill menjadi salah satu bagian dari Kampung Peduli Gizi, sebuah program yang dibuat untuk memberikan dukungan kepada peternak ayam petelur skala kecil sehingga mereka dapat mengelola peternakannya dan memungkinkan mereka untuk memiliki pendapatan yang berkelanjutan. Sementara itu, di saat yang bersamaan, sebagian telur yang dihasilkan selama modul pelatihan akan juga diberikan dalam bentuk donasi kepada masyarakat sekitar.</p>',
+                ],
+                'image' => url('img/program-kampung-peduli-gizi.jpg'),
+                'created_at' => date('Y-m-d'),
+            ],
+        ];
+
         $data['usaha'] = [
             [
                 'title' => 'Kedai Hutan Cempaka',
                 'slug' => '',
                 'content' => [
-                    'icon' => 'mug-hot',
-                    'description' => 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate itaque, nam rem enim tempora quas quam officiis dolorem quae eius adipisci ipsam. Rerum adipisci voluptas, nobis animi labore dolore esse?',
+                    'description' => 'Cafe || Traditional Culinary || Outbound || Camping || Venue',
                     'content' => '',
-                    'link_whatsapp' => '#',
-                    'link_instagram' => '#',
+                    'link_whatsapp' => 'http://wa.me/6281216742910',
+                    'link_instagram' => 'https://www.instagram.com/hutan.cempaka',
                 ],
-                'image' => '',
+                'image' => url('img/gk1.jpg'),
             ],
             [
-                'title' => 'Cempaka Education Center',
+                'title' => 'Cempaka Adventure',
                 'slug' => '',
                 'content' => [
-                    'icon' => 'campground',
-                    'description' => 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate itaque, nam rem enim tempora quas quam officiis dolorem quae eius adipisci ipsam. Rerum adipisci voluptas, nobis animi labore dolore esse?',
+                    'description' => 'Camping, Persewaan motor ATV, Panahan, Rope Course dan Flying Fox.',
                     'content' => '',
-                    'link_whatsapp' => '#',
-                    'link_instagram' => '#',
+                    'link_whatsapp' => 'http://wa.me/6281216742910',
+                    'link_instagram' => 'https://www.instagram.com/cempaka.adventure',
                 ],
-                'image' => '',
+                'image' => url('img/ga1.jpg'),
             ],
         ];
 
@@ -72,47 +99,41 @@ class Landingpage extends Controller
                 'image' => url('img/cargill.png'),
             ],
             [
-                'title' => 'Cargill',
+                'title' => 'Cheers',
                 'slug' => '',
                 'content' => '',
-                'image' => url('img/cargill.png'),
+                'image' => url('img/cheers.png'),
             ],
             [
-                'title' => 'Cargill',
+                'title' => 'KTG',
                 'slug' => '',
                 'content' => '',
-                'image' => url('img/cargill.png'),
+                'image' => url('img/ktg.png'),
             ],
             [
-                'title' => 'Cargill',
+                'title' => 'STBC',
                 'slug' => '',
                 'content' => '',
-                'image' => url('img/cargill.png'),
+                'image' => url('img/stbc.png'),
             ],
             [
-                'title' => 'Cargill',
+                'title' => 'Universitas Brawijaya',
                 'slug' => '',
                 'content' => '',
-                'image' => url('img/cargill.png'),
-            ],
-            [
-                'title' => 'Cargill',
-                'slug' => '',
-                'content' => '',
-                'image' => url('img/cargill.png'),
+                'image' => url('img/ub.png'),
             ],
         ];
 
         $data['galeri_kategori'] = [];
         $galeri = [
-            [
-                'title' => 'Kedai',
-                'slug' => '',
-                'content' => [
-                    'category' => 'Kedai'
-                ],
-                'image' => url('img/gk1.jpg'),
-            ],
+            // [
+            //     'title' => 'Kedai',
+            //     'slug' => '',
+            //     'content' => [
+            //         'category' => 'Kedai'
+            //     ],
+            //     'image' => url('img/gk1.jpg'),
+            // ],
             [
                 'title' => 'Kedai',
                 'slug' => '',
@@ -145,14 +166,14 @@ class Landingpage extends Controller
                 ],
                 'image' => url('img/gk5.jpg'),
             ],
-            [
-                'title' => 'Adventure',
-                'slug' => '',
-                'content' => [
-                    'category' => 'Adventure'
-                ],
-                'image' => url('img/ga1.jpg'),
-            ],
+            // [
+            //     'title' => 'Adventure',
+            //     'slug' => '',
+            //     'content' => [
+            //         'category' => 'Adventure'
+            //     ],
+            //     'image' => url('img/ga1.jpg'),
+            // ],
             [
                 'title' => 'Adventure',
                 'slug' => '',
@@ -227,13 +248,26 @@ class Landingpage extends Controller
             ],
         ];
         $data['galeri'] = $galeri;
+        shuffle($data['galeri']);
+        $counter_categori = [];
 
         // remmap galeri
-        foreach ($galeri as $gk => $g) {
-            $ks = strtolower(str_replace(' ', '-', $galeri[$gk]['content']['category']));
+        foreach ($data['galeri'] as $gk => $g) {
+            $ks = strtolower(str_replace(' ', '-', $data['galeri'][$gk]['content']['category']));
             $data['galeri'][$gk]['content']['kategori_slug'] = $ks;
-            $data['galeri_kategori'][$ks] = $g['content']['category'];
+
+            if (@$counter_categori[$ks] >= 3) {
+                unset($data['galeri'][$gk]);
+            }
+
+            if (!in_array($g['content']['category'], $data['galeri_kategori'])) {
+                $data['galeri_kategori'][$ks] = $g['content']['category'];
+                $counter_categori[$ks] = 1;
+            } else {
+                $counter_categori[$ks]++;
+            }
         }
+
 
         // dd($data);
 

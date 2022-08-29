@@ -33,6 +33,7 @@ class Blogarticle extends Controller
             'image' => url('img/mantari.jpg'),
             'created_at' => date('Y-m-d'),
         ];
+        $data['header_active'] = 'blog-artikel';
 
         return view('layout.blog-article-detail', $data);
     }

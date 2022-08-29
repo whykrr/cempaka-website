@@ -1,7 +1,9 @@
 <?php
 
+use App\Http\Controllers\About;
 use App\Http\Controllers\Blogarticle;
 use App\Http\Controllers\Landingpage;
+use App\Http\Controllers\Program;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,3 +19,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [Landingpage::class, 'index']);
 Route::get('/blog-article/{slug}', [Blogarticle::class, 'detail']);
+Route::get('/program/{slug}', [Program::class, 'detail']);
+Route::get('/tentang', [About::class, 'index']);
