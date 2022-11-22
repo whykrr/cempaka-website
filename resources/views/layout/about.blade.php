@@ -25,6 +25,13 @@
                         {!! $content !!}
                     </div>
                 </div>
+                <div class="row mt-2">
+                    @foreach ($team as $it)
+                        <div class="col-md-12 col-lg-12 mb-2">
+                            <img src="{{ $it['image'] }}" class="img-fluid" width="100%">
+                        </div>
+                    @endforeach
+                </div>
             </div>
         </section>
 
