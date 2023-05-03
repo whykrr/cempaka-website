@@ -22,6 +22,6 @@ Route::get('/blog-article/{slug}', [Blogarticle::class, 'detail']);
 Route::get('/program/{slug}', [Program::class, 'detail']);
 Route::get('/tentang', [About::class, 'index']);
 
-Route::get('admin', function () {
-    return view('admin.root');
-});
+// Route::get('admin', function () {
+//     return view('admin.root');
+// });
