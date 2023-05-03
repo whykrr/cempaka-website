@@ -30,7 +30,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Template Main CSS File -->
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style-website.css') }}" rel="stylesheet">
 
     <!-- =======================================================
   * Template Name: Green - v4.8.0
@@ -58,7 +58,7 @@
     <script src="{{ asset('vendor/php-email-form/validate.js') }}"></script>
 
     <!-- Template Main JS File -->
-    <script src="{{ asset('js/main.js') }}"></script>
+    <script src="{{ asset('js/main-website.js') }}"></script>
 
 </body>
 
