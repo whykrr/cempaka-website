@@ -1,7 +1,14 @@
 import React from 'react'
+import { useSelector } from 'react-redux'
+import { Navigate } from 'react-router-dom'
 import { AppContent, AppSidebar, AppFooter, AppHeader } from '../components/index'
 
-const DefaultLayout = () => {
+const DefaultLayout = (props) => {
+  const isAuthUser = useSelector((state) => state.auth.isAuthUser)
+  if (!isAuthUser) {
+    localStorage.setItem('redirect_to', window.location.pathname)
+    return <Navigate to="/admin/login" />
+  }
   return (
     <div>
       <AppSidebar />
@@ -15,5 +22,4 @@ const DefaultLayout = () => {
     </div>
   )
 }
-
 export default DefaultLayout

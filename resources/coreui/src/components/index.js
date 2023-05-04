@@ -7,15 +7,7 @@ import AppSidebar from './AppSidebar'
 import DocsCallout from './DocsCallout'
 import DocsLink from './DocsLink'
 import DocsExample from './DocsExample'
+import SmartPagination from './SmartPagination'
+import SmartTable from './SmartTable'
 
-export {
-  AppBreadcrumb,
-  AppContent,
-  AppFooter,
-  AppHeader,
-  AppHeaderDropdown,
-  AppSidebar,
-  DocsCallout,
-  DocsLink,
-  DocsExample,
-}
+export { AppBreadcrumb, AppContent, AppFooter, AppHeader, AppHeaderDropdown, AppSidebar, DocsCallout, DocsLink, DocsExample, SmartPagination, SmartTable }

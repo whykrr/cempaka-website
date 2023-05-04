@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 
 import { CSidebar, CSidebarBrand, CSidebarNav, CSidebarToggler } from '@coreui/react'
@@ -12,13 +12,27 @@ import { sygnet } from '../assets/brand/sygnet'
 import SimpleBar from 'simplebar-react'
 import 'simplebar/dist/simplebar.min.css'
 
-// sidebar nav config
-import navigation from '../_nav'
+import { navAction } from '../actions'
 
 const AppSidebar = () => {
   const dispatch = useDispatch()
-  const unfoldable = useSelector((state) => state.sidebarUnfoldable)
-  const sidebarShow = useSelector((state) => state.sidebarShow)
+  const unfoldable = useSelector((state) => state.sidebar.sidebarUnfoldable)
+  const sidebarShow = useSelector((state) => state.sidebar.sidebarShow)
+  const navigation = useSelector((state) => state.nav.data)
+  const location = window.location.pathname
+
+  useEffect(() => {
+    if (navigation.length === 0) {
+      //check path
+      if (location.includes('/dashboard') || location.includes('/category')) {
+        dispatch(navAction.loadNavMain())
+      } else if (location.includes('/project')) {
+        dispatch(navAction.loadNavProject())
+      } else if (location.includes('/settings')) {
+        dispatch(navAction.loadNavSetting())
+      }
+    }
+  }, [])
 
   return (
     <CSidebar
@@ -38,10 +52,7 @@ const AppSidebar = () => {
           <AppSidebarNav items={navigation} />
         </SimpleBar>
       </CSidebarNav>
-      <CSidebarToggler
-        className="d-none d-lg-flex"
-        onClick={() => dispatch({ type: 'set', sidebarUnfoldable: !unfoldable })}
-      />
+      <CSidebarToggler className="d-none d-lg-flex" onClick={() => dispatch({ type: 'set', sidebarUnfoldable: !unfoldable })} />
     </CSidebar>
   )
 }

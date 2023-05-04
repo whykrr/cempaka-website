@@ -120,6 +120,21 @@ const cilCalendar = ["512 512","<path fill='var(--ci-primary-color, currentColor
 
 /***/ }),
 
+/***/ "./node_modules/@coreui/icons/js/free/cil-chart-pie.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/@coreui/icons/js/free/cil-chart-pie.js ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "cilChartPie": () => (/* binding */ cilChartPie)
+/* harmony export */ });
+const cilChartPie = ["512 512","<path fill='var(--ci-primary-color, currentColor)' d='M105.361,398.32A195.891,195.891,0,0,1,343.42,91.125L366.676,67.87A227.875,227.875,0,0,0,82.733,420.948,228.027,228.027,0,0,0,366.24,452.1l-23.312-23.312C267.9,472.768,169.657,462.617,105.361,398.32Z' class='ci-primary'/><path fill='var(--ci-primary-color, currentColor)' d='M468.916,353.07a243.542,243.542,0,0,0,0-186.459c-.885-2.136-1.806-4.251-2.747-6.354A242.246,242.246,0,0,0,416.11,87.571L404.8,76.257,393.483,87.571,221.213,259.84l172.63,172.631L404.8,443.424,416.11,432.11a242.218,242.218,0,0,0,49.452-71.358C466.716,358.212,467.844,355.657,468.916,353.07ZM404.359,121.95a211.57,211.57,0,0,1,0,275.781L266.468,259.84Z' class='ci-primary'/>"]
+
+/***/ }),
+
 /***/ "./node_modules/@coreui/icons/js/free/cil-laptop.js":
 /*!**********************************************************!*\
   !*** ./node_modules/@coreui/icons/js/free/cil-laptop.js ***!
@@ -192,6 +207,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "cilSpeech": () => (/* binding */ cilSpeech)
 /* harmony export */ });
 const cilSpeech = ["512 512","<rect width='32' height='32' x='144' y='240' fill='var(--ci-primary-color, currentColor)' class='ci-primary'/><rect width='32' height='32' x='240' y='240' fill='var(--ci-primary-color, currentColor)' class='ci-primary'/><rect width='32' height='32' x='336' y='240' fill='var(--ci-primary-color, currentColor)' class='ci-primary'/><path fill='var(--ci-primary-color, currentColor)' d='M464,32H48A32.036,32.036,0,0,0,16,64V352a32.036,32.036,0,0,0,32,32h64V496h30.627l112-112H464a32.036,32.036,0,0,0,32-32V64A32.036,32.036,0,0,0,464,32Zm0,320H241.373L144,449.373V352H48V64H464Z' class='ci-primary'/>"]
+
+/***/ }),
+
+/***/ "./node_modules/@coreui/icons/js/free/cil-speedometer.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/@coreui/icons/js/free/cil-speedometer.js ***!
+  \***************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "cilSpeedometer": () => (/* binding */ cilSpeedometer)
+/* harmony export */ });
+const cilSpeedometer = ["512 512","<path fill='var(--ci-primary-color, currentColor)' d='M425.706,142.294A240,240,0,0,0,16,312v88H160V368H48V312c0-114.691,93.309-208,208-208s208,93.309,208,208v56H352v32H496V312A238.432,238.432,0,0,0,425.706,142.294Z' class='ci-primary'/><rect width='32' height='32' x='80' y='264' fill='var(--ci-primary-color, currentColor)' class='ci-primary'/><rect width='32' height='32' x='240' y='128' fill='var(--ci-primary-color, currentColor)' class='ci-primary'/><rect width='32' height='32' x='136' y='168' fill='var(--ci-primary-color, currentColor)' class='ci-primary'/><rect width='32' height='32' x='400' y='264' fill='var(--ci-primary-color, currentColor)' class='ci-primary'/><path fill='var(--ci-primary-color, currentColor)' d='M297.222,335.1l69.2-144.173-28.85-13.848L268.389,321.214A64.141,64.141,0,1,0,297.222,335.1ZM256,416a32,32,0,1,1,32-32A32.036,32.036,0,0,1,256,416Z' class='ci-primary'/>"]
 
 /***/ }),
 
